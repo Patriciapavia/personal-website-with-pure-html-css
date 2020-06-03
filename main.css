@@ -17,6 +17,7 @@ section {
   background-image: url("bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 nav {
@@ -39,5 +40,67 @@ nav ul li a {
   font-weight: 700;
 }
 
-.logy {
+.logo {
+  font-family: "Lobster", cursive, sans-serif;
+  color: #000;
+  font-size: 22px;
+}
+
+.active {
+  font-weight: bold;
+  color: #2d2a2a;
+}
+
+.text-container p:nth-child(1) {
+  font-weight: bold;
+  color: #6d6d6d;
+  font-size: 22px;
+}
+.text-container p:nth-child(2) {
+  font-weight: bold;
+  color: #6d6d6d;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #1a1a1a;
+  font-size: 60px;
+}
+.text-container p:nth-child(3) {
+  font-weight: bold;
+  color: #403e3e;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.text-container p {
+  line-height: 0;
+  margin: 45px 0 25px;
+}
+.text-container {
+  position: absolute;
+  left: 13%;
+  top: 42%;
+  transform: translate(-13%, -42%);
+}
+
+.text-container button {
+  width: 130px;
+  height: 42px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  outline: none;
+  margin: 0 10px;
+}
+.hire-btn {
+  border: 2px solid #373636;
+  color: #373636;
+}
+.down-cv {
+  background-color: #0b0b0b;
+  color: #ffffff;
+  border: none;
+}
+
+button:active {
+  transform: scale(1.1);
 }
