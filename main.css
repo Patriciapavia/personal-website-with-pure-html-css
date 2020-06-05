@@ -104,3 +104,22 @@ nav ul li a {
 button:active {
   transform: scale(1.1);
 }
+
+.profile {
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  left: 60%;
+  bottom: 30%;
+  transform: translate(-60%);
+}
+.about-container {
+  width: 80%;
+  height: 330px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  margin: -7 auto 20px auto;
+  position: relative;
+}
